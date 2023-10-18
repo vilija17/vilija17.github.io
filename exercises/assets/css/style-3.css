@@ -19,8 +19,9 @@ input, button, textarea, select { font: inherit }
  @media (max-width: 767px) {
 section { padding: 8% 5% }
  }
-body { padding: 4% 20% }
+
 body { background-color: lightblue; }
+
 h2 {
     font-size: 56px;
     margin-bottom: 4px;
@@ -37,3 +38,17 @@ p {
     margin-bottom: 16px
 }
 a { color: blue; }
+
+
+.section-1 {background-color: lemonchiffon;}
+
+.section-2 {background-color: lightgreen;}
+
+.section-3 {background-color: lightblue;}
+
+.section-4 {background-color: darkblue;}
+
+.section-4 h2,
+.section-4 p{color: white}
+
+.section-1 {background-color: lightcoral;}
