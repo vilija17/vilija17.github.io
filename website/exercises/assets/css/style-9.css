@@ -23,7 +23,7 @@ input, button, textarea, select { font: inherit }
 
 /* ==== Headings ==== */
 
-h1 {
+h1  {
 	font-family: 'Roboto', sans-serif;
 	font-size: 64px;
     text-align: center;
