@@ -23,6 +23,20 @@
         .col-1 > h3 { line-height: 1.8 }
     </style>
 
+    
+<!-- Styles for Cookie Consent Popup Message  -->
+<link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KLMB9P7MXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KLMB9P7MXX');
+</script>
+
 </head>
 
 
@@ -31,7 +45,7 @@
     <!-- menu and 'hero block' header -->
     <nav class="theme-dark"><div class="container-menu">
         <a href="#" class="brand">
-            <img src="https://lunevedy.com/ui/assets/img/website-logo-sample.png" alt="Sample website logo">
+            <img src="assets/img/logo.png" alt="Sample website logo">
         </a>
     
         <div class="container-menu-links">
@@ -43,34 +57,45 @@
             </div>
     
             <ul class="links-wrapper">
-                <li><a href='/ibat/projects-ui/project-home-checklist/resources/website-dark/'>Home</a></li>
-                <li><a href='/ibat/projects-ui/project-home-checklist/resources/website-dark/portfolio/'>Portfolio</a></li>
+                <li><a href='/ibat/projects-ui/project-home-checklist/resources/w-dark-home/'>Home</a></li>
+                <li><a href="portfolio/index.html">Portfolio</a></li>
                 <li><a href="store/index.html">Store</a></li>
-                <li><a class='btn btn-solid btn-soft' href='/ibat/projects-ui/project-home-checklist/resources/website-dark/contact/' id='btn-cta'><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
+                <li><a class="btn btn-solid btn-soft" id="btn-cta" href="contact/index.html"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
             </ul>
         </div></div></nav>
     
            <!-- header starts here -->
     
-        <header class="theme-dark cols-2-half text-center-mobile">
-    
-            <div class="col-2 col-text">
-                <div class="badge">WELCOME</div>
-                <h1>Mary Smith</h1>
-                <h2>I am an innovative front-end developer who loves to build human-friendly interfaces.</h2>
-    
-                <div class="container-btn">
-                    <a class='btn btn-solid btn-soft' href='/ibat/projects-ui/project-home-checklist/resources/website-dark/portfolio/'><span>View my work</span><i class="fa-regular fa-folder-open"></i></a><a class='btn btn-outline btn-soft' href='/ibat/projects-ui/project-home-checklist/resources/website-dark/contact/'><span>Get in touch</span><i class="fa-regular fa-envelope"></i></a>
-                </div>
-    
-            </div>
-    
-            <div class="col-2 col-visual">
-                <figure>
-                    <img src="https://lunevedy.com/ui/assets/img/1024x618-shopping-bag.jpg" alt="Placeholder image">
-                </figure>
-            </div>
-    
+<!-- header starts here -->
+<header class="cols-2-half text-center-mobile theme-light">
+
+    <div class="col-2 col-text">
+        <h1 class="">Hi, I am <span class="highlight">Vilija Dockute
+
+        </span>,web project</h1>
+			<h2>I am an innovative front-end developer who  loves to build human-friendly interfaces</h2>
+				
+			
+        
+
+        <div class="container-btn">
+            <a href="#" class="btn btn-solid btn-soft"><span>Shop now</span><i class="fas fa-shopping-cart"></i></a><a href="#" class="btn btn-outline btn-soft"><span>View details</span><i class="fas fa-arrow-right"></i></a>
+        </div>
+
+    </div>
+
+    <div class="col-2 col-visual">
+        <figure>
+            <img src="assets/img/vilija .png" alt="Placeholder image">
+        </figure>
+    </div>
+
+</header>
+<!-- header ends here -->
+
+
+        
+     
         </header>
     
     
@@ -85,7 +110,7 @@
 
 		<div class="col-1 text-center w-820px">
 			<h2>Recent projects</h2>
-			<h3>Below you can see some examples of my recent work. Check out my complete portfolio of <a href='/ibat/projects-ui/project-home-checklist/resources/website-dark/portfolio/'>web design</a> projects. Have a project you would like to discuss? <a href='/ibat/projects-ui/project-home-checklist/resources/website-dark/contact/'>Let's make something great together!</a> </h3>
+			<h3>Below you can see some examples of my recent work. Check out my complete portfolio of <a href="portfolio/index.html">web design</a> projects. Have a project you would like to discuss? <a href="contact/index.html">Let's make something great together!</a> </h3>
 		</div>
 
 		<!-- Begin three-column flexbox grid -->
@@ -97,7 +122,7 @@
 				</figure>
 				<h3>Hero Block Gallery</h3>
 				<p>A gallery of hero block elements with split-screen layouts and duotone images.</p>
-				<a href="portfolio/project-hero/index.html" class="btn btn-solid"><span>View project</span><i class="fas fa-arrow-right"></i></a>
+				<a href="portfolio/project-hero/index.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
             
@@ -107,7 +132,7 @@
 				</figure>
 				<h3>Snazzy Fashion</h3>
 				<p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
-				<a href="portfolio/fashion/index.html" class="btn btn-solid"><span>View project</span><i class="fas fa-arrow-right"></i></a>
+				<a href="portfolio/fashion/index.html" class="btn btn-solid btn-soft"><span>View project</span><i class="fas fa-arrow-right"></i></a>
 			</div>
 
 			<div class="col-3">
@@ -132,15 +157,15 @@
  
 	<footer class="theme-dark text-center-desktop text-center-mobile">
 
-		<h2>Mary Smith</h2>
+		<h2>Vilija Dockute </h2>
 
 		<h3>Front-end designer and developer</h3>
 
 		<ul class="footer-links">
-			<li><a href='/ibat/projects-ui/project-home-checklist/resources/website-dark/'>Home</a></li>
-			<li><a href='/ibat/projects-ui/project-home-checklist/resources/website-dark/portfolio/'>Portfolio</a></li>
+			<li><a href='/ibat/projects-ui/project-home-checklist/resources/w-dark-home/'>Home</a></li>
+			<li><a href="portfolio/index.html">Portfolio</a></li>
 			<li><a href="store/index.html">Store</a></li>
-            <li><a href='/ibat/projects-ui/project-home-checklist/resources/website-dark/contact/'>Contact</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
 		</ul>
 
 		<ul class="footer-icons">
@@ -153,6 +178,25 @@
 	</footer>
 
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
+
+
+<!-- JavaScript for Cookie Consent Popup Message -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+    "palette": {
+        "popup": {
+            "background": "#000"
+        },
+        "button": {
+            "background": "#f1d600"
+        }
+    },
+    "content": {
+        "href": "vilija17.github.io/privacy.html"
+    }
+});
+</script>
 
 </body>
 </html>
