@@ -1,14 +1,41 @@
 
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
+nav.theme-dark ul.links-wrapper li a:hover, nav.theme-dark ul.links-wrapper li a:active { color: var(--black-000) }
 
-header.theme-dark   { background-color: #0f172a }
+header.cols-2-half .col-text .badge { background-color: var(--slate-800)}
+header.cols-2-half .col-text h1 { color: var(--slate-800); letter-spacing: -2px }
+header.cols-2-half .col-text h1 span { color: #986589 }
+header.cols-2-half .col-text h2 { color: var(--slate-600) }
 
-header.theme-dark  h1 { color: var(--sky-400); }
+@media (min-width: 768px) {
+    header.cols-2-half .col-text, header.cols-2-half .col-visual { padding-top: 20px; padding-bottom: 0 }
+}
 
-section.theme-dark   { background-color: #0f172a }
+.theme-dark .col-1 h3 { color: var(--slate-900) }
+.theme-dark .col-3 h3 { color: var(--slate-900) }
+.theme-dark .col-3 p { color: var(--slate-800) }
+.theme-dark p { color: var(--slate-900) }
 
-footer.theme-dark   { background-color: #0f172a }
+.theme-dark .col-1 a:link, .theme-dark .col-1 a:visited,
+.theme-dark .container-text h2 a:link, .theme-dark .container-text h2 a:visited { color: var(--slate-700) }
+.theme-dark .col-1 a:hover, .theme-dark .col-1 a:active,
+.theme-dark .container-text h2 a:hover, .theme-dark .container-text h2 a:active { color: var(--black-000) }
+
+footer.theme-dark ul.footer-links li a:link, footer.theme-dark ul.footer-links li a:visited,
+footer.theme-dark ul.footer-icons li a:link i, footer.theme-dark ul.footer-icons li a:visited i { color: var(--slate-200) }
 
 
+footer.theme-dark ul.footer-links li a:hover, footer.theme-dark ul.footer-links li a:active,
+footer.theme-dark ul.footer-icons li a:hover i, footer.theme-dark ul.footer-icons li a:active i { color: var(--white-000) }
 
-header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+
+footer.theme-dark p.privacy a:link, footer.theme-dark p.privacy a:visited { color: var(--slate-200) }
+footer.theme-dark p.privacy a:active, footer.theme-dark p.privacy a:hover { color: var(--white-000) }
+
+.theme-dark { background-color: #986589 }
+.theme-dark .col-1 h3 { color: var(--white-000) }
+.theme-dark .col-3 h3 { color: var(--white-000) }
+.theme-dark .col-3 p { color: var(--slate-050) }
+.theme-dark .flex-cols-4 p { color: var(--slate-100) }
+
+.theme-dark .col-1 a:link, .theme-dark .col-1 a:visited { color: var(--slate-050) }
+.theme-dark .col-1 a:hover, .theme-dark .col-1 a:active { color: var(--black-000) }
